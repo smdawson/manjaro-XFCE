@@ -144,8 +144,6 @@ checkyay && checktrizen && checkgit && checkwget
 category Distro_Specific
 
 list=(
-mugshot
-menulibre
 xfce4-panel-profiles
 )
 
@@ -161,7 +159,8 @@ done
 category Accessories
 
 list=(
-conky-lua-archers-git
+conky-lua-archers
+#conky-lua-archers-git
 mintstick-git
 bitwarden-bin
 )
@@ -227,7 +226,7 @@ category Multimedia
 
 list=(
 gradio
-#pithos
+pithos
 )
 
 count=0
@@ -260,7 +259,6 @@ list=(
 bibata-cursor-theme
 downgrade
 font-manager-git
-inxi
 kvantum-theme-arc
 numix-circle-icon-theme-git
 oxy-neon

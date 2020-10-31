@@ -101,11 +101,8 @@ end_category Bash
 category Accessories
 
 list=(
-catfish
-cronie
 gnome-screenshot
 plank
-xfburn
 variety
 yad
 )
@@ -147,8 +144,6 @@ category Games
 
 list=(
 kmines
-steam-native-runtime
-steam
 supertuxkart
 )
 
@@ -168,7 +163,6 @@ category Graphics
 
 list=(
 cura	
-gimp
 gnome-font-viewer
 gpick
 inkscape
@@ -194,8 +188,6 @@ category Internet
 
 list=(
 discord
-firefox
-hexchat
 qbittorrent
 telegram-desktop
 )
@@ -219,7 +211,6 @@ audacity
 deadbeef
 peek
 simplescreenrecorder
-vlc
 )
 
 count=0
@@ -240,9 +231,7 @@ list=(
 evince
 evolution
 gnucash
-hunspell
 hunspell-en_US
-hyphen
 hyphen-en
 libmythes
 mythes-en
@@ -265,64 +254,35 @@ category System
 
 list=(
 arc-gtk-theme
-accountsservice
 arduino
 baobab
 base-devel
 boost
-curl
 dconf-editor
-dmenu dmidecode
-ffmpegthumbnailer
+dmenu
 glances
 gnome-disk-utility
-gnome-keyring
-gparted
 go
 grsync
-gtk-engine-murrine
-gvfs
-gvfs-mtp
 hardinfo
 hddtemp
-htop
-imagemagick
-kvantum-qt5
 kvantum-theme-arc
-lm_sensors
-lsb-release
-mlocate
 neofetch
 net-tools
-noto-fonts
-numlockx
-polkit-gnome
-qt5ct
-sane
-screenfetch
 scrot
 simple-scan
 sysstat
-termite
-thunar
-thunar-archive-plugin
-thunar-volman 
-tumbler
+vim
 vnstat
 w3m
-wget
 wmctrl
 unclutter
 rxvt-unicode
 urxvt-perls
 whois
 xclip
-xdg-user-dirs
 xdo
 xdotool 
-xfce4-notifyd
-zenity
-zsh
 zsh-completions
 zsh-syntax-highlighting
 )
@@ -342,10 +302,6 @@ end_category System
 category Unpack
 
 list=(
-unace
-unrar
-zip
-unzip
 sharutils
 uudeview
 arj

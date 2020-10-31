@@ -186,6 +186,7 @@ mugshot
 menulibre
 xfce4-panel-profiles
 conky-lua-archers-git
+conky-lua-archers
 mintstick-git
 bitwarden-bin
 sublime-text-dev
@@ -226,6 +227,20 @@ surfn-icons-git
 the_platinum_searcher-bin
 ttf-mac-fonts
 hardcode-fixer-git
+awesome-terminal-fonts
+adobe-source-sans-pro-fonts
+cantarell-fonts
+noto-fonts
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-font-awesome
+ttf-hack
+ttf-inconsolata
+ttf-liberation
+ttf-roboto
+ttf-ubuntu-font-family
+tamsyn-font
 )
 
 count=0
