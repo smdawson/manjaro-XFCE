@@ -51,9 +51,7 @@ else
 
 echo -e " [${r}x${endc}]::[${b}warning${enda}]:this script requires AUR Helpers"
 echo && echo -e " ${b}[!]::[please wait]: Installing Yay ..${enda}"
-git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm
-cd ..
-rm -rf yay
+sudo pacman -S yay --noconfirm
 echo ""
 fi
 sleep 3
@@ -68,9 +66,7 @@ else
 
 echo -e " [${r}x${endc}]::[${b}warning${enda}]:this script requires AUR Helpers"
 echo && echo -e " ${b}[!]::[please wait]: Installing Trizen ..${enda}"
-git clone https://aur.archlinux.org/trizen.git && cd trizen && makepkg -si --noconfirm
-cd ..
-rm -rf trizen
+sudo pacman -S trizen --noconfirm
 echo ""
 fi
 sleep 3

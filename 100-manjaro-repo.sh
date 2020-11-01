@@ -41,7 +41,7 @@ c='\E[36m'
 w='\E[37m'
 endc='\E[0m'
 enda='\033[0m'
-version="20200603-MAN"
+version="20201031-MAN"
 
 ####################### Functions ########################
 
@@ -126,6 +126,7 @@ atom
 manjaro-tools
 geany
 meld
+vim
 )
 
 count=0
@@ -272,7 +273,7 @@ net-tools
 scrot
 simple-scan
 sysstat
-vim
+trizen
 vnstat
 w3m
 wmctrl
@@ -282,7 +283,8 @@ urxvt-perls
 whois
 xclip
 xdo
-xdotool 
+xdotool
+yay 
 zsh-completions
 zsh-syntax-highlighting
 )
@@ -321,6 +323,6 @@ end_category Unpack
 
 ###############################################################################
 
-echo -e " [${g}✔${endc}]::Software From ${b}${r}[Arch Linux Repository]${endc}${enda} Installed"
+echo -e " [${g}✔${endc}]::Software From ${b}${r}[Manjaro Linux Repository]${endc}${enda} Installed"
 echo
-echo -e " ${bu}SMD-Arch Installation Script Version${b} $version ${enda} ${endc}"
+echo -e " ${bu}SMD-Manjaro Installation Script Version${b} $version ${enda} ${endc}"
