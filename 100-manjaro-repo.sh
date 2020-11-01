@@ -101,6 +101,8 @@ end_category Bash
 category Accessories
 
 list=(
+bitwarden
+mintstick
 gnome-screenshot
 plank
 variety
@@ -261,6 +263,8 @@ base-devel
 boost
 dconf-editor
 dmenu
+downgrade
+font-manager
 glances
 gnome-disk-utility
 go

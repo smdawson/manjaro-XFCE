@@ -133,6 +133,21 @@ function category {
 	echo;tput sgr0
 }
 
+function pacinstall {
+  # Check If Package Is Installed
+  if pacman -Qi $1 &> /dev/null; then
+      echo -e " [${g}✔${endc}]::[${b}"$1"${enda}] Is Already Installed!"
+  else
+      sudo pacman -S --noconfirm --needed $1
+      # Verify Successful Installation
+    if pacman -Qi $package &> /dev/null; then
+      echo -e " [${g}✔${endc}]::[${b}"$1"${enda}]: Installed!"
+    else
+      echo -e " [${r}!${endc}]::[${b}"$1"${enda}]: ${r}NOT Installed!${endc}"
+    fi
+  fi
+}
+
 checkyay && checktrizen && checkgit && checkwget
 
 ###############################################################################
@@ -157,8 +172,6 @@ category Accessories
 list=(
 conky-lua-archers
 #conky-lua-archers-git
-mintstick-git
-bitwarden-bin
 )
 
 count=0
@@ -253,8 +266,6 @@ category System
 
 list=(
 bibata-cursor-theme
-downgrade
-font-manager-git
 kvantum-theme-arc
 numix-circle-icon-theme-git
 oxy-neon
@@ -316,14 +327,14 @@ neofetch
 category Last
 
 list=(
-hardcode-fixer-git
+hardcode-fixer
 )
 
 count=0
 for name in "${list[@]}" ; do
 	count=$[count+1]
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
-	aurinstall $name
+	pacinstall $name
 done
 
 ###############################################################################
