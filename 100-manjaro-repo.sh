@@ -277,6 +277,7 @@ net-tools
 scrot
 simple-scan
 sysstat
+termite
 trizen
 vnstat
 w3m
