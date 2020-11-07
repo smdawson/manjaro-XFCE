@@ -272,6 +272,11 @@ hardinfo
 hddtemp
 kvantum-theme-arc
 manjaro-tools
+manjaro-tools-base
+manjaro-tools-iso
+manjaro-efi-shell
+manjaro-isolinux
+manjaro-iso-profiles-official
 neofetch
 net-tools
 scrot
