@@ -125,7 +125,6 @@ category Development
 
 list=(
 atom
-manjaro-tools
 geany
 meld
 vim
@@ -272,6 +271,7 @@ grsync
 hardinfo
 hddtemp
 kvantum-theme-arc
+manjaro-tools
 neofetch
 net-tools
 scrot
