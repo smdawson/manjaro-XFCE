@@ -204,7 +204,7 @@ list=(
 bash-pipes
 boxes
 gotop-bin
-hollywood
+#hollywood
 )
 
 count=0
